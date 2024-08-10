@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vender.css">
+    <link rel="icon" type="image/x-icon" href="img/WebFarm-removebg-preview 12.png">
+    <title>Vender</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-geral">
+
+            <div class="logo1">
+                <a href="index.html"> <img class="img-logo1" src="img/WebFarm-removebg-preview 12.png"> </a>
+            </div>
+
+            <div class="menu-geral">
+
+                <div class="menu">
+
+                    <div class="menu">
+                        <tr>
+                            <td>
+                                <a href="index.html">Menu</a>
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="compra">
+                        <tr>
+                            <td>
+                                <a href="comprar.html">Compra</a>
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="alugar">
+                        <tr>
+                            <td>
+                                <a href="alugar.html">Alugar</a>
+                            </td>
+                        </tr>
+                    </div>
+
+                </div>
+
+                <div class="menu-pesquisa">
+
+                    <div class="pesquisa">
+
+                        <div class="barra-pesquisa">
+                            <input class="barra-de-pesquisa" placeholder="Digite o local ou tamanho" value="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="login-geral">
+                    <img class="img-login" src="img/login.png">
+
+                    <div class="login">
+                        <tr>
+                            <td>
+                                <a href="login.html">Login</a>
+                            </td>
+                        </tr>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main">
+
+        <div class="container">
+            <div>
+                <div class="addImagem">
+                    <img src="img/addImg.png">
+                </div>
+            </div>
+
+        </div>
+        <div class="formulario_geral">
+
+
+            <div class="titulo">
+                <h2>Venda seu terreno!</h2>
+            </div>
+
+            <div class="formulario">
+                <form action="#" method="post">
+
+                    <fieldset>
+
+                        <h4>Documentação Legal</h4>
+                        <table>
+
+                            <tr>
+
+                                <td>
+                                    <input type="checkbox" id="idcertOnus" name="documentacao[]" value="onus" />
+                                    <label for="idcertOnus"> Certidão de Ônus Reais </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="idcertDeb" name="documentacao[]" value="deb" />
+                                    <label for="idcertDeb"> Certidão Negativa de Débitos </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="idescri" name="documentacao[]" value="escri" />
+                                    <label for="idescri"> Escritura Pública ou Contrato de Compra e Venda </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="idreg" name="documentacao[]" value="reg" />
+                                    <label for="idreg"> Registro do Imóvel no Cartório </label>
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+
+                        <h4>Localização</h4>
+                        <p>
+                            <label for="idend"> Endereço Completo: </label>
+                            <input type="text" id="idend" size="50" />
+                        </p>
+
+                        <p>
+                            <label for="ideprox"> Proximidade a Serviços (escolas, hospitais, etc.): </label>
+                            <input type="text" id="idprox" size="50" />
+                        </p>
+
+                        <p>
+                            <label for="idseg"> Segurança da Área:ﾠ</label>
+                            <input type="text" id="idseg" size="50" />
+                        </p>
+
+
+                        <h4>Dimensões e Características</h4>
+                        <p>
+                            <label for="idtam"> Tamanho Total (em m²): </label>
+                            <input type="text" id="idtam" size="10" />
+                        </p>
+
+                        <p>
+                            <label for="idfort"> Formato e Topografia (plano, inclinado, etc.): </label>
+                            <input type="text" id="idfort" size="20" />
+                        </p>
+
+                        <p>
+                            <label for="idsolo"> Tipo de Solo: </label>
+                            <input type="text" id="idsolo" size="20" />
+                        </p>
+
+                        <h4>Zonificação e Uso Permitido</h4>
+                        <p>
+                            <label for="idzonificacao"> Zonificação: </label>
+                            <input type="radio" name="zonificação" value="res" id="idresi" />
+                            <label for="idresi"> Residencial </label>
+
+                            <input type="radio" name="genero" value="com" id="idcom" />
+                            <label for="idcom"> Comercial </label>
+
+                            <input type="radio" name="genero" value="indus" id="idindus" />
+                            <label for="idindus"> Industrial </label>
+                        </p>
+
+                        <p>
+                            <label for="idrestr"> Restrições de Uso e Regulamentos:</label>
+                            <input type="text" id="idrestr" size="50" />
+                        </p>
+
+                        <h4>Infraestrutura Disponível</h4>
+                        <table>
+
+                            <tr>
+
+                                <td>
+                                    <input type="checkbox" id="idAgua" name="Infraestrutura[]" value="agua" />
+                                    <label for="idAgua"> Água </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="idcertEsg" name="Infraestrutura[]" value="esgoto" />
+                                    <label for="idcertEsg"> Esgoto </label>
+                                </td>
+                            </tr>
+                            <td>
+                                <input type="checkbox" id="ideletric" name="Infraestrutura[]" value="eletric" />
+                                <label for="ideletric"> Eletricidade </label>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="idinter" name="Infraestrutura[]" value="internet" />
+                                    <label for="idinter"> Internet </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="idacess" name="Infraestrutura[]"
+                                        value="acessibilidade" />
+                                    <label for="idacess"> Acessibilidade (ruas pavimentadas, calçadas, etc.) </label>
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+
+                        <span>Assunto:</span>
+
+                        <table>
+
+                            <tr>
+
+                                <td>
+                                    <input type="checkbox" id="idsala" name="assuntos[]" value="sala" />
+                                    <label for="idsala"> Salas de Aula </label>
+                                </td>
+
+                                <td>
+                                    <input type="checkbox" id="idcantina" name="assuntos[]" value="cantina" />
+                                    <label for="idcantina"> Cantina </label>
+                                </td>
+
+                                <td>
+                                    <input type="checkbox" id="idlab" name="assuntos[]" value="lab" />
+                                    <label for="idlab"> Laboratório </label>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+                                    <input type="checkbox" id="idquadra" name="assuntos[]" value="quadra" />
+                                    <label for="idquadra"> Quadra </label>
+                                </td>
+
+                                <td>
+                                    <input type="checkbox" id="idcampo" name="assuntos[]" value="campo" />
+                                    <label for="idcampo"> Campo</label>
+                                </td>
+
+                                <td>
+                                    <input type="checkbox" id="idoutro" name="assuntos[]" value="outro" />
+                                    <label for="idoutro"> Outro </label>
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+                        <p>
+                            <label for="idsugestao">Sugestão: </label> <br>
+                            <textarea id="idsugestao" cols="70" rows="5"></textarea>
+                        </p>
+
+                        <p>
+                            <input type="submit" id="idenviar" value="Enviar" />
+                            <input type="reset" id="limpar" value="Limpar" />
+                        </p>
+
+                    </fieldset>
+
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

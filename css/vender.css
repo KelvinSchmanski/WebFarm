@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(225, 225, 225);
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-geral {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(142, 255, 176);
+}
+
+.logo1 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    left: 20px;
+}
+
+.img-logo1 {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.menu-geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    right: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 150, 0);
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.menu a:hover {
+    color: rgb(211, 211, 211);
+}
+
+.compra {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.compra a {
+    text-decoration: none;
+    color: rgb(0, 150, 0);
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.compra a:hover {
+    color: rgb(211, 211, 211);
+}
+
+.alugar {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+}
+
+.alugar a {
+    text-decoration: none;
+    color: rgb(0, 150, 0);
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.alugar a:hover {
+    color: rgb(211, 211, 211);
+}
+
+.menu-pesquisa {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 200px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-pesquisa {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-de-pesquisa {
+    border-radius: 8px 8px 8px 8px;
+    line-height: 21px;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
+
+.login-geral {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    right: 20px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: rgb(142, 255, 176);
+}
+
+.img-login {
+    position: relative;
+    display: flex;
+    left: 5px;
+    width: 26px;
+    height: 26px;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    left: 7px;
+}
+
+.login a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.login a:hover {
+    color: rgb(211, 211, 211);
+}
+
+img{
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.img1{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    overflow: auto;
+    max-height: 88vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.container{
+    top:6vh;
+    position: relative;
+    background-color: rgb(173, 173, 173);
+    height: 350px;
+    width: 350px;
+    left: 10vh;
+}
+
+.addImagem img{
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    top: 18vh;
+    left: 25vh;
+    
+}
+
+.titulo h2 {
+    width: 100%; /* ou qualquer valor desejado */
+    line-height: 1.5em; /* ajusta a altura da linha */
+    font-size: 24px; /* ajusta o tamanho da fonte */
+    text-align: center; /* centraliza o texto */
+}
+
+.titulo {
+    position: relative;
+    top: 2vh;
+    left: 25vh;
+    width: 30vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario{
+    position: relative;
+    display: flex;
+    left: 25vh;
+    width: 78vh;
+    top: 5vh;
+}
+
+.idtitulo{
+    background-color: blue;
+}

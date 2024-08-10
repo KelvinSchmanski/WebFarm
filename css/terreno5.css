@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-slider {
+    position: relative;
+    display: flex;
+    width: 100%;
+    left: 20vh;
+    margin-top: 2vh;
+    min-height: 80vh;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vh;
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+
+.header{
+    position: relative;
+    top: 0;
+    left:0;
+    height: 150px;
+}
+
+.header img{
+  position: relative;
+  width: 21vh;
+  height: 21vh;
+}
+
+.img1{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+  position: relative;
+  left: 105vh;
+  top: -70vh;
+  font-size: 5vh;
+  width: 49vh;
+}
+
+.tamanho{
+  font-size: 3vh;
+  margin: 5vh;
+}
+
+.localização{
+  font-size: 3vh;
+  margin: 5vh;
+}
+
+.info .descrição{
+  font-size: 3vh;
+  margin: 5vh;
+  width: 70vh;
+}
+
+.preço{
+  font-size: 3vh;
+  margin: 5vh;
+}
+
+.tipo{
+  font-size: 3vh;
+  margin: 5vh;
+}
+
+.botao-comprar {
+  background-color: rgb(6, 46, 33); /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Sem borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remove o sublinhado */
+  display: inline-block; /* Faz o botão se comportar como um bloco inline */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem ao redor do botão */
+  cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+  border-radius: 5px; /* Cantos arredondados */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  position: relative;
+  left: 4vh;
+  height: 6vh;
+  width: 15vh;
+  font-size: 2vh;
+}
+
+/* Estilo para quando o botão é pressionado */
+.botao-comprar:active {
+  color: rgb(0, 0, 0); /* Cor de fundo ao pressionar */
+}
+
+/* Estilo para quando o botão é passado com o mouse */
+.botao-comprar:hover {
+  color: rgb(114, 183, 161); /* Cor de fundo ao passar o mouse */
+}

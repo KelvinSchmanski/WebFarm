@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon"  type="image/x-icon" href="img/WebFarm-removebg-preview 12.png">
+    <title>Cadastro</title>
+    <script src="js/cadastro.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="img1">
+            <a href="index.html"> <img src="img/WebFarm-removebg-preview.png"> </a>
+         </div>
+    </div>
+
+    <div class="erroEmail">
+        <span> Por favor, digite um email válido</span>
+    </div>
+
+    <div class="erroSenha">
+        <span> A senha deve conter pelo menos 5 caracteres, entre letras, números e caracteres especiais</span>
+    </div>
+
+
+    <div class="form1">
+
+        <form action="login.html" method="POST">
+
+            <fieldset>
+
+                <legend>Cadastro</legend>
+
+                <div>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="idnome" placeholder="Digite seu nome.." required="">
+                </div>
+
+                <div>
+                <label for="email">Email:</label>
+                <input type="text" id="idemail" placeholder="email@email.com" required="">
+                </div>
+
+                <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="idsenha" placeholder="Crie uma senha de 5 dígitos" maxlength="15" required="">
+                </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </div>
+
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
