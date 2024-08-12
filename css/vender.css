@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 90px;
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: rgb(142, 255, 176);
@@ -199,8 +199,8 @@ img{
     position: relative;
     height: 5vh;
     width: 5vh;
-    top: 18vh;
-    left: 25vh;
+    top: 22vh;
+    left: 23vh;
     
 }
 
